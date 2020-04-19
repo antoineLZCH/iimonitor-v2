@@ -1,0 +1,33 @@
+{
+  "name": "iimonitor-server",
+  "version": "0.0.1",
+  "description": "Server for IIMonitor",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/antoineLZCH/iimonitor-v2.git"
+  },
+  "author": "antoinelzch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoineLZCH/iimonitor-v2/issues"
+  },
+  "homepage": "https://github.com/antoineLZCH/iimonitor-v2#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.0.0",
+    "graphql-yoga": "^1.18.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.9",
+    "nodemailer": "^6.4.6"
+  },
+  "nodemonConfig": {
+    "ext": "js,json,graphql"
+  }
+}
